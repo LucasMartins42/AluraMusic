@@ -1,0 +1,102 @@
+body{
+    color: white;
+    background-image: url(5559852.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    width: 100vh;
+    height: 80px;
+    background-color: rgba(202, 27, 27,30);
+    border-radius: 40px;
+    color: black;
+    display: grid;
+    align-content: space-around;
+    justify-content: center;
+    text-decoration: none;
+
+
+}
+
+.Ultimo_Acesso img{
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+.Ultimo_Acesso img:hover{
+    opacity: 1.0;
+    height: 350px;
+    width: 100%;
+}
+
+.Ultimo_Acesso_Texto{
+    font-size: 20px;
+
+}
+
+.Texto{
+    width: 90%;
+    display: flex;
+ justify-content: start;
+}
+
+.Titulo{
+display: flex;
+justify-content: center;
+}
+
+.Opçoes {
+    display: flex;
+    height: 300px;
+    width: 90%;
+    justify-content: center;
+    overflow-x: auto;
+    gap: 10px;
+    margin: 0;
+}
+.Opçoes img{
+    opacity: 0.5;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+.Opçoes img:hover {
+    opacity: 1.0;
+    height: 250px;
+    width: 250px;
+}
+p{
+    display: flex;
+}
+.flutter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.flutter img{
+    height: 40px;
+    width: 40px;
+    display: inline;
+
+}
